@@ -1,0 +1,98 @@
+@font-face {
+    font-family: typewriter;
+    src: url("Fonts/traveling-typewriter.regular.ttf");
+}
+
+body {
+    background: linear-gradient(#4233c9,#b493c7);
+    color: #e0fbfc;
+    text-shadow: 0px 0px 1px black;
+    font-family: typewriter;
+
+}
+
+#Header {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px 0; 
+    margin-bottom: 30px;
+}
+
+#age {
+    margin-bottom: 0;
+}
+
+#birthdate {
+    margin-top: 0;
+}
+
+#profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #e0fbfc;
+    background-image: url("./images/jonas_profile.jpg");
+    background-size: cover;
+}
+
+.gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.gift-title {
+    margin: 0px 0px;
+}
+
+#gift-tutorial {
+    margin-top: 0px;
+    margin-bottom: 0;
+}
+
+.gift-wrap {
+    width: 400px;
+    height: 300px;
+    border: 5px solid #e0fbfc;
+    border-radius: 10px;
+    background-image: url("./images/wrap2.jpg");
+    background-size: cover;
+    margin-top:5px;
+    margin-bottom: 40px;
+}
+
+#gift-img-cheers {
+    height: 200px;
+}
+
+#gift-img-happy:hover {
+    background-image: url("https://media.giphy.com/media/pWO49XP9L7TxbgQVib/giphy.gif");
+}
+
+#gift-img-hot:hover {
+    background-image: url("https://media.giphy.com/media/elhmwUMsAUbScKLLzl/giphy.gif");
+}
+
+#gift-img-genius:hover {
+    background-image: url("https://media.giphy.com/media/l46C7X7h54JXm23YY/giphy.gif");
+}
+
+#gift-img-badass:hover {
+    background-image: url("https://media.giphy.com/media/kiBcwEXegBTACmVOnE/giphy-downsized-large.gif");
+}
+
+#gift-img-cheers:hover {
+    background-image: url("https://media.giphy.com/media/BPJmthQ3YRwD6QqcVD/giphy.gif");
+}
+
+#footer {
+    font-size: 20px;
+    text-align: center;
+    width: 400px;
+    margin-top: 0px;
+}
+#foot_link {
+    color: #e0fbfc;
+}

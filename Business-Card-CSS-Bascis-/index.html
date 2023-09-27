@@ -1,0 +1,33 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="styles.css" />
+        <style>
+            a:hover {
+                border: 2px solid #ffb703;
+            }
+            a {
+                color: #ffb703;
+                position: relative;
+                animation-name: example;
+                animation-duration: 10s;
+}
+            @keyframes example {
+            0%   {color: #ffb703; left:0px; top:0px;}
+            25%  {color: #ffb703; left:10px; top:0px;}
+            75%  {color: #023047; left:-10px; top:0px;}
+            100% {color: #ffb703; left:0px; top:0px;}
+}
+        </style>
+    </head>
+    <body>
+        <div class="card">
+            <img class="avatar" src="images/jonas.jpg">
+            <div >
+                <h3>Jonas Serafim</h3>
+                <p>Frontend Developer</p>
+                <h4>Limeira, Brazil</h4>
+                <a href="https://github.com/Jonserafim7" target="_blank" class= "gitlink">github</a>
+            </div>
+        </div>
+    </body>
+</html>
